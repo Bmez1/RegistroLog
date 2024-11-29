@@ -1,0 +1,23 @@
+@InformacionLogsBots.Api_HostAddress = https://localhost:7211/Logs
+
+POST {{InformacionLogsBots.Api_HostAddress}}
+Accept: application/json
+Content-Type: application/json
+{
+  "fechaHora": "2024-11-18T15:45:00.000Z",
+  "finTransaccion": "2024-11-18T15:45:05.000Z",
+  "idTransaccion": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+  "duracionTransaccion": 5,
+  "ambiente": "Desarrollo",
+  "ip": "192.168.1.100",
+  "usuario": "usuarioPrueba",
+  "tecnologia": "Java",
+  "proceso": "Pago",
+  "proyecto": "ProyectoX",
+  "level": "INFO",
+  "procesoInterno": "ProcesamientoPago",
+  "mensaje": "Transacción procesada exitosamente.",
+  "tipoProceso": "Financiero"
+}
+
+###
